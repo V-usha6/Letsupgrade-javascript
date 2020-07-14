@@ -1,0 +1,38 @@
+<!---shift + ! Then TAB-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Day 1</title>
+        <!--- console fun can be used in external javascript-->
+        <script src= "intro.js"></script>
+    </head>
+        <!--- console fun can used outside the body part -->
+        <script>
+        var a={month:"jan",date:"2"};
+        var b={month:"feb",date:"20"};
+        var c={month:"mar",date:"5"};
+        console.table({a,b,c});
+        </script>
+
+        <body>
+        <h2> welcome</h2>
+        <p>We can learn javascript with letupgrade team.</p>
+        <!--- console func can used inside the body part-->
+        <script>
+        console.time('time taken');
+        console.error("hey");
+        console.warn("hey this is warning");
+
+        var x={name:"usha",age:"23",city:"hyderabad"};
+        var y={name:"rosy",age:"22",city:"banglore"};
+        
+        //console.log(x);
+        //console.log(y);
+        console.table({x,y});
+        console.log('%c custom message','color:blue');
+        console.timeEnd('time taken');
+        </script>
+    </body>
+    </html>
