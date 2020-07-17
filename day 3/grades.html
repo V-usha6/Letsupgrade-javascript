@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <H2>CHECK THE GRADES</H2>
+<body>
+Enter Your Marks:<input type ="text" name ="text1" value =" " id = "noinput"/><br />
+<input type ="button" onclick="marksgrade()"  value="Click me" />
+<script>
+function marksgrade()
+{
+let a = Number(document.getElementById("noinput").value);
+if(a>85) {
+    //if  percent > 85 
+    console.log(`marks are ${a} Grade - A+`);
+    alert(`marks are ${a} Grade - A+`);
+  }
+  else if(a<=85 && a>80)
+   {  //80<percent80=85  
+     console.log(`marks are ${a} Grade - A`);
+     alert(`marks are ${a} Grade - A`);
+    }
+    else if(a>70 && a<=80)
+      {//70<percent<=80 
+      console.log(`marks are ${a} Grade - B+`);
+      alert(`marks are ${a} Grade - B+`);
+     }
+    else if(a>60 && a<=70)
+      {//60<percent<=70  
+      console.log(`marks are ${a} Grade - C`);
+        alert(`marks are ${a} Grade - C`);
+     }
+    else if(a>40 && a<=60)
+     {//40<percent<=60  
+        console.log(`marks are ${a} Grade - D`);
+        alert(`marks are ${a} Grade - D`);
+    }
+      else { 
+            console.log('Grade - F');
+            alert('Grade - F');
+      }
+}   
+
+</script>
+</body>
+</html>
