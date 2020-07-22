@@ -1,0 +1,17 @@
+  
+.blue{
+    color:blue;
+}
+
+.bgYellow{
+    background-color: yellow;
+}
+
+.highlight{
+    font-size: 22px;
+    color: red;
+}
+.dark-mode {
+    background-color:  black;
+    color: white;
+}

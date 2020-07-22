@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>program3</title>
+    <h4 id="time"></h4>
+    <style>
+        body {
+          padding: 100px;
+          background-color: white;
+          color: black;
+          font-size: 100px;
+         }
+        
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+        </style>
+</head>
+<body>
+   
+    <script src="prgm3.js"></script>
+     <button onclick="myFunction()"><h1>DARK MODE</h1></button>
+<script>
+    function myFunction(){
+    let attr = document.body;
+    //attr.classList.add('bule');
+    attr.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
